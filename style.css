@@ -1,0 +1,81 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+}
+
+body {
+  background: url("./assets/icons/image_geometry_1.svg") no-repeat left top;
+  font-family: 'Poppins', sans-serif;
+  color: #1a2236;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  width: 220px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+}
+
+.header,
+.hero-section {
+  display: flex;
+}
+
+.header,
+.container {
+  padding-inline: 16px;
+}
+
+.header {
+  justify-content: flex-end;
+}
+
+.hero-section {
+  flex-direction: column;
+}
+
+.decoration {
+  max-width: 100%;
+}
+
+.container {
+  padding-top: 104px;
+  padding-bottom: 32px;
+}
+
+.paragraph {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.cta-btn {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #1a2236;
+  padding-block: 12px;
+  width: 100%;
+  border: 1px solid #1a2236;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  margin-top: 19px;
+}
+
+.cta-btn:hover,
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background: none;
+  color: #1a2236;
+}
