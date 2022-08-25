@@ -6,6 +6,10 @@
   font: inherit;
 }
 
+li {
+  list-style-type: none;
+}
+
 body {
   background: url("./assets/icons/image_geometry_1.svg") no-repeat left top;
   font-family: 'Poppins', sans-serif;
@@ -25,6 +29,15 @@ h1 {
   display: flex;
 }
 
+.hero-section {
+  padding-top: 100px;
+  flex-direction: column;
+}
+
+.section {
+  padding-top: 60px;
+}
+
 .header,
 .container {
   padding-inline: 16px;
@@ -34,17 +47,13 @@ h1 {
   justify-content: flex-end;
 }
 
-.hero-section {
-  flex-direction: column;
-}
-
 .decoration {
   max-width: 100%;
+  margin-top: 42px;
 }
 
 .container {
-  padding-top: 104px;
-  padding-bottom: 32px;
+  padding-inline: 16px;
 }
 
 .paragraph {
@@ -78,4 +87,116 @@ h1 {
 .cta-btn:hover {
   background: none;
   color: #1a2236;
+}
+
+.primary-heading {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a2236;
+}
+
+.container-information {
+  padding-bottom: 20px;
+}
+
+.heading {
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.features {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.feature {
+  text-align: center;
+  width: 100px;
+  height: 25px;
+  background: #98dede;
+}
+
+.c-projects {
+  width: 178px;
+  height: 44px;
+  border: 1px solid #fff;
+  background-color: #1a2236;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skills-lists {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 16px;
+}
+
+.bg-blue {
+  background-color: #1c528a;
+  background-image: url("./assets/im3/hash.png");
+}
+
+.bg-red {
+  background-color: #e2505c;
+  background-image: url("./assets/im3/rectengle.png");
+}
+
+.bg-yellow {
+  background-color: #febe52;
+  background-image: url("./assets/im3/lamp.png");
+}
+
+.skill-container {
+  color: #fff;
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.get-cv-btn {
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.get-cv-btn img {
+  margin-left: 10px;
+}
+
+.skill-heading {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.skill-item {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.c-projects:hover {
+  cursor: pointer;
 }
