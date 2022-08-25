@@ -6,6 +6,10 @@
   font: inherit;
 }
 
+li {
+  list-style-type: none;
+}
+
 body {
   background: url("./assets/icons/image_geometry_1.svg") no-repeat left top;
   font-family: 'Poppins', sans-serif;
@@ -25,6 +29,15 @@ h1 {
   display: flex;
 }
 
+.hero-section {
+  padding-top: 100px;
+  flex-direction: column;
+}
+
+.section {
+  padding-top: 60px;
+}
+
 .header,
 .container {
   padding-inline: 16px;
@@ -34,17 +47,13 @@ h1 {
   justify-content: flex-end;
 }
 
-.hero-section {
-  flex-direction: column;
-}
-
 .decoration {
   max-width: 100%;
+  margin-top: 42px;
 }
 
 .container {
-  padding-top: 104px;
-  padding-bottom: 32px;
+  padding-inline: 16px;
 }
 
 .paragraph {
@@ -80,59 +89,48 @@ h1 {
   color: #1a2236;
 }
 
-.project-section {
-  padding: 0;
-  margin: 0;
-}
-
 .primary-heading {
-  font-family: Playfair Display;
   font-size: 50px;
   font-weight: 400;
   line-height: 50px;
-  text-align: left;
+  margin-bottom: 20px;
 }
 
-.img img {
+.project-img {
   width: 100%;
- }
+}
 
 .grid {
-  border: 2px solid green;
-  height: auto;
- }
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
- .container-information {
+.item {
   background-color: #1a2236;
-  border: 2px solid red;
- }
+}
 
- .heading {
-  font-family: 'Poppins';
+.container-information {
+  padding-bottom: 20px;
+}
+
+.heading {
   color: #fff;
   font-weight: 300;
   font-size: 20px;
-  padding: 20px 36px 16px 20px;
-  text-align: center;
 }
 
 .features {
-  display: grid;
-  grid-template-columns: 0.7fr 1fr 1fr;
+  display: flex;
   gap: 10px;
-  justify-content: space-evenly;
+  margin-top: 16px;
+  margin-bottom: 20px;
 }
 
 .feature {
   text-align: center;
-  /* padding: 16px, 10px, 20px, 20px; */
   width: 100px;
   height: 25px;
   background: #98dede;
-}
-
-.feature :nth-child(1){
-  padding-left: 20px;
 }
 
 .c-projects {
@@ -142,4 +140,61 @@ h1 {
   background-color: #1a2236;
   color: #fff;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skills-lists {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 16px;
+}
+
+.bg-blue {
+  background-color: #1c528a;
+  background-image: url("./assets/im3/hash.png");
+}
+
+.bg-red {
+  background-color: #e2505c;
+  background-image: url("./assets/im3/rectengle.png");
+}
+
+.bg-yellow {
+  background-color: #febe52;
+  background-image: url("./assets/im3/lamp.png");
+}
+
+.skill-container {
+  color: #fff;
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.get-cv-btn {
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.get-cv-btn img {
+  margin-left: 10px;
+}
+
+.skill-heading {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.skill-item {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.c-projects:hover {
+  cursor: pointer;
 }
