@@ -106,6 +106,8 @@ h1 {
 }
 
 .item {
+  display: flex;
+  flex-direction: column;
   background-color: #1a2236;
 }
 
