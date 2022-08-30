@@ -244,18 +244,18 @@ footer {
   color: #dfdfe0;
 }
 
-.label {
+.label1 {
   z-index: 1;
   color: #dfdfe0;
   font-size: 10px;
 }
 
-.textarea {
+.textarea1 {
   width: 100%;
   position: absolute;
   background: #fff;
   border-radius: 1px solid #1a2236;
-  color: #DFDFE0;
+  color: #dfdfe0;
   height: 112px;
   margin-bottom: 20px;
   font-size: 16px;
@@ -281,7 +281,7 @@ footer {
   font-weight: 500;
   font-size: 16px;
   font-family: "Poppins";
-  color: #92DCDC;
+  color: #92dcdc;
   margin-left: 16px;
   margin-right: 16px;
   margin-top: 32px;
