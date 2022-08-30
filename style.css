@@ -1,7 +1,7 @@
 :root {
   --ff-headings: 'Playfair Display', serif;
   --ff-normal: 'Poppins', sans-serif;
- }
+}
 
 * {
   box-sizing: border-box;
