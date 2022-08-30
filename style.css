@@ -31,7 +31,7 @@ h1 {
 
 .hero-section {
   padding-top: 100px;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .section {
@@ -244,7 +244,12 @@ footer {
   color: #dfdfe0;
 }
 
+<<<<<<< HEAD
 .label1 {
+=======
+.label {
+  padding: 4px 0 0 16px;
+>>>>>>> 3eb4e301dbb80a99ed85e76fcfc86cc7f58c1d88
   z-index: 1;
   color: #dfdfe0;
   font-size: 10px;
