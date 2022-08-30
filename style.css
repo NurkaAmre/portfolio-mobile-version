@@ -247,14 +247,14 @@ footer {
 /* <<<<<<< HEAD
 .label1 {
 ======= */
-.label {
+#label1 {
   padding: 4px 0 0 16px;
   z-index: 1;
   color: #dfdfe0;
   font-size: 10px;
 }
 
-.textarea1 {
+#textarea1 {
   width: 100%;
   position: absolute;
   background: #fff;
@@ -301,4 +301,3 @@ footer {
   justify-content: space-evenly;
   margin-top: 60px;
 }
-
