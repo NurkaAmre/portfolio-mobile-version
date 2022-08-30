@@ -35,7 +35,7 @@ h1 {
 
 .hero-section {
   padding-top: 100px;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .section {
