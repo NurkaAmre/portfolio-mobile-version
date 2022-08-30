@@ -251,7 +251,6 @@ footer {
   padding-top: 0.5em;
 }
 
-
 .label1 {
   padding: 4px 0 0 16px;
   z-index: 1;
@@ -286,10 +285,6 @@ footer {
   width: 100%;
   border: 1px solid #1a2236;
   margin-top: 62px;
-}
-
-.cta-btn:hover {
-  cursor: pointer;
 }
 
 .cta-btn-last:hover {
