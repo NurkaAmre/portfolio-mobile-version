@@ -200,4 +200,100 @@ h1 {
 
 .c-projects:hover {
   cursor: pointer;
+} 
+
+footer {
+  background: url("./assets/icons/image_geometry_1.svg") no-repeat left top;
+}
+
+.top-footer {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.footer-heading {
+  font-family: 'Playfair Display';
+  color: #1a2236;
+  font-weight: 400;
+  font-size: 50px;
+  margin-top: 106px;
+}
+
+.last-text {
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.input-item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-bottom: 64px;
+  position: relative;
+ }
+
+.input2 {
+  width: 100%;
+  position: absolute;
+   background: #fff;
+  border: 1px solid #1A2236;
+  border-radius: 4px;
+  height: 52px;
+  color: #DFDFE0;
+}
+
+.label {
+  z-index: 1;
+  color: #DFDFE0 ;
+  font-size: 10px;
+}
+
+.textarea {
+  width: 100%;
+  position: absolute;
+  background: #fff;
+  border-radius: 1px solid #1a2236;
+  color: #DFDFE0;
+  height: 112px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.cta-btn-last {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  background-color: #1a2236;
+  padding-block: 12px;
+  width: 100%;
+  border: 1px solid #1a2236;
+  margin-top: 62px;
+}
+
+.bottom-footer {
+  background-color: #1a2236;
+}
+
+.get-resume {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Poppins";
+  color: #92DCDC;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 32px;
+}
+
+.union {
+  margin-top: 32px;
+  margin-left: 16px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
 }
