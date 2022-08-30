@@ -200,7 +200,7 @@ h1 {
 
 .c-projects:hover {
   cursor: pointer;
-} 
+}
 
 footer {
   background: url("./assets/icons/image_geometry_1.svg") no-repeat left top;
@@ -212,7 +212,7 @@ footer {
 }
 
 .footer-heading {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   color: #1a2236;
   font-weight: 400;
   font-size: 50px;
@@ -232,21 +232,21 @@ footer {
   margin-top: 32px;
   margin-bottom: 64px;
   position: relative;
- }
+}
 
 .input2 {
   width: 100%;
   position: absolute;
-   background: #fff;
-  border: 1px solid #1A2236;
+  background: #fff;
+  border: 1px solid #1a2236;
   border-radius: 4px;
   height: 52px;
-  color: #DFDFE0;
+  color: #dfdfe0;
 }
 
 .label {
   z-index: 1;
-  color: #DFDFE0 ;
+  color: #dfdfe0;
   font-size: 10px;
 }
 
@@ -297,3 +297,4 @@ footer {
   justify-content: space-evenly;
   margin-top: 60px;
 }
+
