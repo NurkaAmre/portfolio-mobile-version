@@ -245,6 +245,7 @@ footer {
 }
 
 .label {
+  padding: 4px 0 0 16px;
   z-index: 1;
   color: #DFDFE0 ;
   font-size: 10px;
