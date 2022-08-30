@@ -1,3 +1,7 @@
+:root{
+  --ff-headings: 'Playfair Display', serif;
+  --ff-normal: 'Poppins', sans-serif;
+}
 /* Reset */
 * {
   box-sizing: border-box;
@@ -12,12 +16,12 @@ li {
 
 body {
   background: url("./assets/icons/image_geometry_1.svg") no-repeat left top;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--ff-normal);
   color: #1a2236;
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--ff-headings);
   width: 220px;
   font-weight: 400;
   font-size: 50px;
@@ -212,7 +216,7 @@ footer {
 }
 
 .footer-heading {
-  font-family: "Playfair Display";
+  font-family: var(--ff-headings);
   color: #1a2236;
   font-weight: 400;
   font-size: 50px;
@@ -221,7 +225,7 @@ footer {
 
 .last-text {
   font-size: 14px;
-  font-family: "Poppins";
+  font-family: var(--ff-normal);
   font-weight: 400;
   margin-top: 20px;
 }
@@ -284,7 +288,7 @@ footer {
 .get-resume {
   font-weight: 500;
   font-size: 16px;
-  font-family: "Poppins";
+  font-family: var(--ff-normal);
   color: #92dcdc;
   margin-left: 16px;
   margin-right: 16px;
