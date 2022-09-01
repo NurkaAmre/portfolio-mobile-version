@@ -410,30 +410,97 @@ footer {
   transform: rotate(-90deg);
   position: absolute;
   right: 90%;
+  margin-top: 0;
   }
 
   .section {
-  background-image: url(./assets/desktop/image_dots.png) no-repaet right top;
-  background-size: 50%;
-  position: relative;
   border: 2px solid pink;
+  flex-wrap: nowrap;
   }
 
   .grid {
   display: grid;
   grid-template-columns: 1fr 0.5fr 1fr 1fr;
   border: 2px solid red;
-  margin-left: 400px;
+  margin-left: 350px;
+ 
   }
 
   .item {
-  grid-column: span 2;
-  border: 2px solid black;
+    border: 2px solid darkcyan;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px; 
+    margin-right: 0;
   }
 
-  .span2 {
+  .span-1 {
   grid-column: 2;
+  width: 860px;
+    height: 600px;
   justify-self: left;
-  border: 3px yellow;
+  background-image: url(./assets/desktop/image_dots.png) no-repaet right top;
   }
+
+  .span-2 {
+    grid-column: 1;
+    border: 1px solid #1A2236;
+    background-image: url(./assets/desktop/image-geometry_2.png) no-repeat;
+  }
+
+  .span-3 {
+    grid-column: 2;
+    border: 1px solid #1A2236;
+    background-image: url(./assets/desktop/image-geometry_3.png) no-repeat;
+  }
+   
+  .span-4{
+    grid-column: 2 ;
+    border: 1px solid #1A2236;
+    background-image: url(./assets/desktop/image-geometry_5.png) no-repeat;
+  }
+
+  .span-5 {
+    grid-column: 2 ;
+    border: 1px solid #1A2236;
+    background-image: url(./assets/desktop/image-geometry_4.png) no-repeat;
+  } 
+
+  .span-6 {
+    grid-column: 3 ;
+    border: 1px solid #1A2236;
+    background-image: url(./assets/desktop/Rectangle47.png) no-repeat;
+  }
+}
+
+
+/* About-section */
+
+.container-item {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  background-color: #92dcdc;
+}
+.about-content {
+  margin: 110px 120px 220px 100px;
+  border: 2px solid sienna;
+  width: 30%;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 0;
+}
+ .bg-blue {
+  grid-column: 1;
+ }
+ .bg-red {
+  grid-column: 2;
+
+ }
+ 
+.bg-yellow {
+  grid-column: 3;
 }
