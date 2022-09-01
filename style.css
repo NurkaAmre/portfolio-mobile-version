@@ -316,3 +316,124 @@ footer {
   justify-content: space-evenly;
   margin-top: 60px;
 }
+
+.nav-list {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: none;
+  }
+
+  /* Hero-section */
+  .header {
+    justify-content: center;
+    border-bottom: 1px solid #dddfe6;
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
+
+  .nav-list {
+    display: block;
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:#1A2236;
+    font-family: var(--ff-normal);
+    text-decoration: none;
+ 
+  }
+
+  .hamburger {
+  display: none;
+  }
+
+  .decoration {
+  visibility: hidden;
+  }
+
+  .multi-background {
+  background: url("./assets/desktop/image-geometry_1.png"), url("./assets/desktop/image_dots.png");
+  background-position: 725px 0px, 570px 600px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50% 100%, 10% 20%;
+  border: 2px solid blue;
+  }
+
+  .hero-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 100px;
+  }
+
+  .container {
+  padding-inline-start: 110px;
+  }
+
+  .primary-heading {
+  font-size: 80px;
+  width: 484px;
+  height: 220px;
+  line-height: 100%;
+  padding-right: 5px;
+  margin-top: 100px;
+  margin-bottom: 0;
+  }
+
+  .paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  width: 500px;
+  height: 84px;
+  margin-top: 10px;
+  }
+
+  .cta-btn {
+  width: 254px;
+  height: 60px;
+  margin-bottom: 120px;
+  }
+
+  /* Project-section */
+  .rotate-one {
+  transform-origin: right top;
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 90%;
+  }
+
+  .section {
+  background-image: url(./assets/desktop/image_dots.png) no-repaet right top;
+  background-size: 50%;
+  position: relative;
+  border: 2px solid pink;
+  }
+
+  .grid {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr 1fr;
+  border: 2px solid red;
+  margin-left: 400px;
+  }
+
+  .item {
+  grid-column: span 2;
+  border: 2px solid black;
+  }
+
+  .span2 {
+  grid-column: 2;
+  justify-self: left;
+  border: 3px yellow;
+  }
+}
