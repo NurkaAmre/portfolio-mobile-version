@@ -420,7 +420,7 @@ h1 {
     position: relative;
     margin-right: 0;
   }
-  
+
   .project-img {
     display: flex;
     width: 100%;
@@ -488,11 +488,11 @@ h1 {
   .hide {
     visibility: hidden;
   }
-  
+
   .pic-2 {
     z-index: 0;
   }
-  
+
   .pic-3 {
     z-index: 1;
     width: 400px;
@@ -512,8 +512,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 60%;
   }
- 
-  /* About-section */
+/* About-section */
   .container-item {
     display: flex;
     flex-direction: row-reverse;
@@ -554,7 +553,6 @@ h1 {
     background-repeat: no-repeat;
     background-size: 60%, 40%;
   }
-
 /* Footer */
   .container-footer {
     background: url(./assets/desktop/image-geometry_6.png), url(./assets/desktop/image-geometry_7.png);
@@ -566,7 +564,7 @@ h1 {
   .bg-footer {
     background-color: #f9f9fa;
   }
-  
+
   .top-footer {
     justify-content: center;
     padding-inline-start: 350px;
