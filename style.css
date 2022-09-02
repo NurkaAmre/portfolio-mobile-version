@@ -512,7 +512,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 60%;
   }
-  /* About-section */
+   /* About-section */
   .container-item {
     display: flex;
     flex-direction: row-reverse;
@@ -553,7 +553,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 60%, 40%;
   }
-  /* Footer */
+   /* Footer */
   .container-footer {
     background: url(./assets/desktop/image-geometry_6.png), url(./assets/desktop/image-geometry_7.png);
     background-repeat: no-repeat, no-repeat;
@@ -656,4 +656,5 @@ h1 {
     }
   }
 }
+
 
