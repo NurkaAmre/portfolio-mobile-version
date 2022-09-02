@@ -107,7 +107,6 @@ h1 {
 .item {
   display: flex;
   flex-direction: column;
-
 }
 
 .container-information {
@@ -342,7 +341,7 @@ h1 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color:#1A2236;
+    color: #1a2236;
     font-family: var(--ff-normal);
     text-decoration: none;
   }
@@ -357,7 +356,7 @@ h1 {
 
   .multi-background {
     background: url("./assets/desktop/image-geometry_1.png"), url("./assets/desktop/image_dots.png");
-    background-position: 725px 0px, 570px 600px;
+    background-position: 725px 0, 570px 600px;
     background-repeat: no-repeat, no-repeat;
     background-size: 50% 100%, 10% 20%;
     border: 2px solid blue;
@@ -436,7 +435,7 @@ h1 {
   }
 
   .bi-project1 {
-    background-image:  url(./assets/desktop/image-geometry_2.png);
+    background-image: url(./assets/desktop/image-geometry_2.png);
     background-position: 5px 125px;
     background-repeat: no-repeat;
     background-size: 90%;
@@ -445,24 +444,24 @@ h1 {
     animation-duration: 2s;
     animation-name: bi-project1;
     animation-iteration-count: 2;
-    animation-direction:alternate-reverse;
+    animation-direction: alternate-reverse;
   }
 
   @keyframes bi-project1 {
     from {
-      margin-left:80%;
-      width:100%
+      margin-left: 80%;
+      width: 100%;
     }
+
     to {
-      margin-left:0%;
-      width:90%;
+      margin-left: 0;
+      width: 90%;
     }
   }
 
   .rose-laptop {
-    grid-column-end: span 1;
-    position: absolute;
     grid-area: center;
+    position: absolute;
     left: 800px;
     z-index: -1;
   }
@@ -514,7 +513,7 @@ h1 {
     background-size: 60%;
   }
  
-/* About-section */
+  /* About-section */
   .container-item {
     display: flex;
     flex-direction: row-reverse;
@@ -537,7 +536,7 @@ h1 {
     justify-self: center;
   }
 
- .bg-red {
+  .bg-red {
     width: 250px;
     height: 250px;
     justify-self: center;
@@ -551,7 +550,7 @@ h1 {
 
   .bi-project6 {
     background-image: url(./assets/desktop/image_dots.png), url(./assets/desktop/Shapeblue.png);
-    background-position: 10px 95px, 160px 0px;
+    background-position: 10px 95px, 160px 0;
     background-repeat: no-repeat;
     background-size: 60%, 40%;
   }
@@ -560,14 +559,14 @@ h1 {
   .container-footer {
     background: url(./assets/desktop/image-geometry_6.png), url(./assets/desktop/image-geometry_7.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: 0px 0px, 910px 395px;
+    background-position: 0 0, 910px 395px;
     border: 2px solid saddlebrown;
   }
   
   .bg-footer {
-   background-color: #f9f9fA;
+    background-color: #f9f9fa;
   }
-
+  
   .top-footer {
     justify-content: center;
     padding-inline-start: 350px;
@@ -649,12 +648,13 @@ h1 {
 
   @keyframes logos {
     from {
-      margin-left:80%;
-      width:100%
+      margin-left: 80%;
+      width: 100%;
     }
+
     to {
-      margin-left:0%;
-      width:90%;
+      margin-left: 0%;
+      width: 90%;
     }
   }
-  }
+}
