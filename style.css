@@ -410,7 +410,7 @@ h1 {
 
   .grid {
     display: grid;
-    grid-template-columns: 1fr 0.5fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 0.5fr 1fr;
   }
 
   .project-item {
@@ -420,7 +420,6 @@ h1 {
   .container-information {
     position: absolute;
     width: 100%;
-    bottom: 0;
   }
 
   li {
@@ -441,6 +440,19 @@ h1 {
 
   .bottom {
     bottom: 0;
+  }
+
+  .top-20 {
+    top: -30%;
+  }
+
+  .bg-square {
+    background: url(./assets/desktop/Group83.png) no-repeat right 60%;
+    background-size: 85%;
+  }
+
+  .w-70 {
+    width: 70%;
   }
 
   .span-2 {
