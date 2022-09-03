@@ -324,7 +324,7 @@ h1 {
     padding-top: 38px;
     padding-bottom: 38px;
   }
-  
+
   .nav-list {
     display: block;
     display: flex;
@@ -365,7 +365,7 @@ h1 {
     width: 100%;
     margin-bottom: 100px;
   }
-  
+
   .hero-section1 .container {
     flex: 1;
   }
@@ -396,6 +396,7 @@ h1 {
     position: relative;
     background: url(./assets/desktop/image_dots.png) no-repeat top right;
   }
+
   .rotate-one {
     transform-origin: right top;
     transform: rotate(-90deg);
@@ -425,7 +426,7 @@ h1 {
   .project-img {
     width: 100%;
   }
-  
+
   .pose-a {
     position: absolute;
   }
