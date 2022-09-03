@@ -510,6 +510,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 60%;
   }
+
   /* About-section */
   .container-item {
     display: flex;
@@ -543,6 +544,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 60%, 40%;
   }
+
   /* Footer  */
   .container-footer {
     background: url(./assets/desktop/image-geometry_6.png), url(./assets/desktop/image-geometry_7.png);
@@ -633,7 +635,7 @@ h1 {
     animation-iteration-count: 2;
     animation-direction: alternate;
   }
-  
+
   @keyframes logos {
     from {
       margin-left: 80%;
@@ -646,5 +648,3 @@ h1 {
     }
   }
 }
-
-
