@@ -28,8 +28,8 @@
       </nav>
     </header>
     <main>
-      <section class="hero-section multi-background">
-        <div class="container">
+      <section class="hero-section">
+        <div class="container bg-image">
           <h1 class="primary-heading">Nurgul Kereikhan</h1>
           <p class="paragraph">
             Hello! I am a software developer! I can help you build a product,
@@ -39,6 +39,7 @@
           </p>
           <button class="cta-btn">Start collaboration</button>
         </div>
+        <img class="decoration-desktop" src="./assets/desktop/image-geometry_1.png" alt="geometry-1">
         <img
           class="decoration"
           src="./assets/icons/image_geometry_2.svg"
@@ -49,13 +50,13 @@
         <div class="container">
         <ul class="grid">
           <li><h2 class="primary-heading rotate-one">Projects</h2></li>
-          <li class="span-3">
+          <li class="span-3 project-item" style="border: 10px solid orange;">
             <img
               class="project-img"
               src="./assets/images/Rectangle21.svg"
               alt="Project-1"
             />
-            <div class="container container-information">
+            <div class="container container-information" style="border: 10px solid palevioletred;">
               <h2 class="heading">Project name goes here</h2>
               <ul class="features">
                 <li class="feature">HTML/CSS</li>
@@ -234,16 +235,16 @@
               <p class="last-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <form action="https://formspree.io/f/nurka" method="post">
                 <ul class="last-form">
-                  <li class="input-item size">
+                  <li class="input-item last-grid1">
                     <label class="label1">Your name</label>
                     <input class="input2" type="text" id="name" name="user-name" required maxlength="30">
                   </li>
-                  <li class="input-item size">
+                  <li class="input-item last-grid1">
                     <label class="label1">Your email</label>
                     <input class="input2" type="email" id="mail" name="user-email" required>
                   </li>
-                  <li class="input-item size-big">
-                    <label>message</label>
+                  <li class="input-item last-grid2">
+                    <label class="label1">Message</label>
                     <textarea class="textarea1" placeholder="Enter your message here..." required maxlength="500"></textarea>
                   </li>
                   <li class="input-item size-middle">
