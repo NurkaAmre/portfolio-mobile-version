@@ -317,7 +317,7 @@ h1 {
     background-image: none;
   }
 
-/* Hero-section */
+  /* Hero-section */
   .header {
     justify-content: center;
     border-bottom: 1px solid #dddfe6;
@@ -357,7 +357,6 @@ h1 {
     display: inline;
     margin-right: 0;
     width: 672px;
-   
   }
 
   .hero-section1 {
@@ -396,7 +395,7 @@ h1 {
     margin-bottom: 120px;
   }
 
-/* Project-section */
+  /* Project-section */
   .rotate-one {
     transform-origin: right top;
     transform: rotate(-90deg);
@@ -511,7 +510,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 60%;
   }
-/* About-section */
+  /* About-section */
   .container-item {
     display: flex;
     flex-direction: row-reverse;
@@ -531,7 +530,7 @@ h1 {
     font-size: 20px;
     font-weight: 800;
   }
-  
+
   .skills-lists {
     display: grid;
     grid-template-columns: 289px 289px;
@@ -544,7 +543,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 60%, 40%;
   }
-/* Footer  */
+  /* Footer  */
   .container-footer {
     background: url(./assets/desktop/image-geometry_6.png), url(./assets/desktop/image-geometry_7.png);
     background-repeat: no-repeat, no-repeat;
@@ -647,4 +646,5 @@ h1 {
     }
   }
 }
+
 
