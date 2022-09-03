@@ -315,6 +315,9 @@ h1 {
 @media screen and (min-width: 1024px) {
   body {
     background-image: none;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* Hero-section */
@@ -324,7 +327,7 @@ h1 {
     padding-top: 38px;
     padding-bottom: 38px;
   }
-
+  
   .nav-list {
     display: block;
     display: flex;
@@ -356,7 +359,7 @@ h1 {
   .decoration-desktop {
     display: inline;
     margin-right: 0;
-    width: 672px;
+    flex: 1;
   }
 
   .hero-section1 {
@@ -364,6 +367,10 @@ h1 {
     flex-direction: row;
     width: 100%;
     margin-bottom: 100px;
+  }
+  
+  .hero-section1 .container {
+    flex: 1;
   }
 
   .bg-image {
