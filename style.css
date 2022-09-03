@@ -317,7 +317,7 @@ h1 {
     background-image: none;
   }
 
-   /* Hero-section  */
+/* Hero-section */
   .header {
     justify-content: center;
     border-bottom: 1px solid #dddfe6;
@@ -339,7 +339,7 @@ h1 {
     font-family: var(--ff-normal);
     text-decoration: none;
   }
-  
+
   .hero-section {
     padding-top: 0;
     padding-inline-start: 90px;
@@ -357,10 +357,10 @@ h1 {
     display: inline;
     margin-right: 0;
     width: 672px;
-    
+   
   }
 
-  .hero-section {
+  .hero-section1 {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -396,7 +396,7 @@ h1 {
     margin-bottom: 120px;
   }
 
-   /* Project-section  */
+/* Project-section */
   .rotate-one {
     transform-origin: right top;
     transform: rotate(-90deg);
@@ -511,7 +511,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 60%;
   }
-   /* About-section  */
+/* About-section */
   .container-item {
     display: flex;
     flex-direction: row-reverse;
@@ -522,9 +522,8 @@ h1 {
     column-gap: 80px;
   }
 
-  .primary-heading {
+  .about1 {
     font-size: 90px;
-  
   }
 
   .skill-heading {
@@ -541,11 +540,11 @@ h1 {
 
   .bi-project6 {
     background-image: url(./assets/desktop/image_dots.png), url(./assets/desktop/Shapeblue.png);
-    background-position: 10px 95px, 175px 0px;
+    background-position: 10px 95px, 175px 0;
     background-repeat: no-repeat;
     background-size: 60%, 40%;
   }
-   /* Footer  */
+/* Footer  */
   .container-footer {
     background: url(./assets/desktop/image-geometry_6.png), url(./assets/desktop/image-geometry_7.png);
     background-repeat: no-repeat, no-repeat;
@@ -565,7 +564,6 @@ h1 {
   .last-form {
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
-    /* align-items: center; */
     padding-left: 20px;
   }
 
@@ -573,6 +571,7 @@ h1 {
     padding-right: 30px;
     width: 285px;
   }
+
   .last-grid0 {
     padding-left: 50px;
     width: 285px;
@@ -581,9 +580,9 @@ h1 {
 
   .last-grid2 {
     position: relative;
-
     grid-column: span 3;
   }
+
   .textarea2 {
     position: absolute;
   }
@@ -594,7 +593,7 @@ h1 {
 
   .input2 {
     position: relative;
-  } 
+  }
 
   .textarea1 {
     position: relative;
@@ -609,13 +608,12 @@ h1 {
   }
 
   .cta-btn-last {
-    /* justify-content: center; */
     align-self: center;
     position: absolute;
     bottom: 35px;
     left: 120px;
   }
-  
+
   .bottom-footer {
     display: flex;
     flex-direction: row;
@@ -636,7 +634,7 @@ h1 {
     animation-iteration-count: 2;
     animation-direction: alternate;
   }
-
+  
   @keyframes logos {
     from {
       margin-left: 80%;
