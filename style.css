@@ -96,8 +96,6 @@ h1 {
 .primary-heading {
   font-size: 50px;
   font-weight: 400;
-  line-height: 50px;
-  margin-bottom: 20px;
 }
 
 .project-img {
@@ -111,6 +109,7 @@ h1 {
 
 .container-information {
   background-color: #1a2236;
+  padding: 1em;
 }
 
 .heading {
@@ -129,9 +128,8 @@ h1 {
 
 .feature {
   text-align: center;
-  width: 100px;
-  height: 25px;
   background: #98dede;
+  font-size: 12px;
 }
 
 .c-projects {
@@ -244,7 +242,6 @@ h1 {
 
 .label1 {
   padding: 4px 0 0 16px;
-  z-index: 1;
   color: #dfdfe0;
   font-size: 12px;
 }
@@ -378,14 +375,6 @@ h1 {
     background-position: right bottom;
   }
 
-  .primary-heading {
-    font-size: 50px;
-    line-height: 100%;
-    padding-right: 5px;
-    padding-top: 100px;
-    margin-bottom: 50px;
-  }
-
   .paragraph {
     font-weight: 400;
     font-size: 14px;
@@ -403,12 +392,15 @@ h1 {
   }
 
   /* Project-section */
+  .project-header {
+    position: relative;
+    background: url(./assets/desktop/image_dots.png) no-repeat top right;
+  }
   .rotate-one {
     transform-origin: right top;
     transform: rotate(-90deg);
     position: absolute;
     right: 90%;
-    margin-top: 0;
   }
 
   .section {
@@ -416,19 +408,39 @@ h1 {
     margin-bottom: 110px;
   }
 
-  .container {
-    padding-inline: 0;
-  }
-
   .grid {
     display: grid;
     grid-template-columns: 1fr 0.5fr 1fr 1fr;
+  }
+
+  .project-item {
     position: relative;
   }
 
-  .project-img {
-    display: flex;
+  .container-information {
+    position: absolute;
     width: 100%;
+    bottom: 0;
+  }
+
+  li {
+    border: 10px solid seagreen;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+  
+  .pose-a {
+    position: absolute;
+  }
+
+  .top {
+    top: 20%;
+  }
+
+  .bottom {
+    bottom: 0;
   }
 
   .span-2 {
@@ -445,7 +457,6 @@ h1 {
     background-repeat: no-repeat;
     background-size: 90%;
     grid-column: span 2;
-    z-index: 0;
     animation-duration: 2s;
     animation-name: bi-project1;
     animation-iteration-count: 2;
@@ -468,10 +479,9 @@ h1 {
     grid-area: center;
     position: absolute;
     left: 960px;
-    z-index: -1;
   }
 
-  .z-index {
+  /* .z-index {
     top: 80px;
     position: absolute;
     left: 840px;
@@ -480,26 +490,20 @@ h1 {
     grid-column: 2/-4;
     grid-area: right;
     margin-left: -30px;
-  }
+  } */
 
   .bi-yellow {
     position: absolute;
     top: 1260px;
     left: 485px;
-    z-index: -1;
     width: 350px;
   }
 
   .hide {
-    visibility: hidden;
-  }
-
-  .pic-2 {
-    z-index: 0;
+    display: none;
   }
 
   .pic-3 {
-    z-index: 1;
     width: 400px;
     height: 300px;
   }
