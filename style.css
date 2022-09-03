@@ -422,10 +422,6 @@ h1 {
     width: 100%;
   }
 
-  li {
-    border: 10px solid seagreen;
-  }
-
   .project-img {
     width: 100%;
   }
@@ -463,75 +459,8 @@ h1 {
     grid-column: span 3;
   }
 
-  .bi-project1 {
-    background-image: url(./assets/desktop/image-geometry_2.png);
-    background-position: 10px 20px;
-    background-repeat: no-repeat;
-    background-size: 90%;
-    grid-column: span 2;
-    animation-duration: 2s;
-    animation-name: bi-project1;
-    animation-iteration-count: 2;
-    animation-direction: alternate-reverse;
-  }
-
-  @keyframes bi-project1 {
-    from {
-      margin-left: 80%;
-      width: 100%;
-    }
-
-    to {
-      margin-left: 0;
-      width: 90%;
-    }
-  }
-
-  .rose-laptop {
-    grid-area: center;
-    position: absolute;
-    left: 960px;
-  }
-
-  /* .z-index {
-    top: 80px;
-    position: absolute;
-    left: 840px;
-    width: 450px;
-    z-index: 1;
-    grid-column: 2/-4;
-    grid-area: right;
-    margin-left: -30px;
-  } */
-
-  .bi-yellow {
-    position: absolute;
-    top: 1260px;
-    left: 485px;
-    width: 350px;
-  }
-
   .hide {
     display: none;
-  }
-
-  .pic-3 {
-    width: 400px;
-    height: 300px;
-  }
-
-  .bi-project2 {
-    background-image: url(./assets/desktop/Shape.png);
-    background-position: 5px 145px;
-    background-repeat: no-repeat;
-    background-size: 30%;
-  }
-
-  .bi-project3 {
-    background-image: url(./assets/desktop/Group83.png);
-    background-position: 143px 132px;
-    background-repeat: no-repeat;
-    background-size: 60%;
   }
 
   /* About-section */
@@ -557,28 +486,39 @@ h1 {
 
   .skills-lists {
     display: grid;
-    grid-template-columns: 289px 289px;
-    grid-template-rows: 289px 289px;
+    grid-template-columns: 1fr 1fr;
+    flex: 2;
+  }
+
+  .about-content {
+    flex: 1;
   }
 
   .bi-project6 {
     background-image: url(./assets/desktop/image_dots.png), url(./assets/desktop/Shapeblue.png);
-    background-position: 10px 95px, 175px 0;
+    background-position: 5px 200px, 175px 0;
     background-repeat: no-repeat;
     background-size: 60%, 40%;
   }
 
   /* Footer  */
   .container-footer {
-    background: url(./assets/desktop/image-geometry_6.png), url(./assets/desktop/image-geometry_7.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: 0 0, 910px 450px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-image: none;
   }
 
   .bg-footer {
     background-color: #f9f9fa;
-    padding-inline-start: 300px;
-    padding-inline-end: 350px;
+  }
+
+  .right {
+    position: relative;
+  }
+
+  .right img {
+    position: absolute;
+    bottom: 0;
   }
 
   .footer-heading {
@@ -587,12 +527,11 @@ h1 {
 
   .last-form {
     display: grid;
-    grid-template-columns: 1fr 1fr 3fr;
-    padding-left: 20px;
+    grid-template-columns: 1fr 0.01fr 1fr;
   }
 
   .last-grid1 {
-    padding-right: 30px;
+    padding-right: 70px;
     width: 285px;
   }
 
@@ -600,6 +539,7 @@ h1 {
     padding-left: 50px;
     width: 285px;
     margin-left: 10px;
+    grid-column-start: 2;
   }
 
   .last-grid2 {
@@ -628,14 +568,13 @@ h1 {
   }
 
   .size-middle {
-    position: relative;
+    grid-column: span 3;
   }
 
   .cta-btn-last {
-    align-self: center;
-    position: absolute;
-    bottom: 35px;
-    left: 120px;
+    margin-top: 0;
+    width: 250px;
+    margin-inline: auto;
   }
 
   .bottom-footer {
