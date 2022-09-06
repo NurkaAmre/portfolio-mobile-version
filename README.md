@@ -16,7 +16,7 @@ Then create html.file and css and try to work your page was looks like as flagma
 - Linter
 
 ## Live Demo 
-[Live Demo Link]()
+[Live Demo Link](https://nurkaamre.github.io/portfolio-mobile-version/)
 
 ## Getting Started
 Dear User i dont think you will need this code but anyway let me write some advices for you:
