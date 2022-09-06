@@ -50,3 +50,12 @@ Feel free to check the [issues page](https://github.com/NurkaAmre/portfolio-mobi
 - You can do it
 - You need patience and smart friend who can help you 
 
+## ACCESSIBILITIES
+
+- Color contrast #fff, #000 Results for Luminosity Contrast Ratio
+The contrast ratio is: 21.00:1
+Passed at Level AAA: The luminosity contrast ratio is very good for the chosen colours (#fff and #000).
+ #fff, #1A2236  The contrast ratio is: 15.84:1
+#E5E5E5, #000 The contrast ratio is: 16.67:1
+Passed at Level AAA: The luminosity contrast ratio is very good for the chosen colours (#E5E5E5 and #000).
+#1A2236, #98DEDE The contrast ratio is: 10.44:1
