@@ -49,3 +49,4 @@ Feel free to check the [issues page](https://github.com/NurkaAmre/portfolio-mobi
 
 - You can do it
 - You need patience and smart friend who can help you 
+
