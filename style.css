@@ -28,6 +28,10 @@ h1 {
   line-height: 100%;
 }
 
+.desktop {
+  display: none;
+}
+
 .header,
 .hero-section {
   display: flex;
@@ -309,7 +313,7 @@ h1 {
   display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   body {
     background-image: none;
     max-width: 1400px;
@@ -355,7 +359,9 @@ h1 {
 
   .decoration-desktop {
     display: inline;
+    width: 50%;
     margin-right: 0;
+    margin-left: 0;
     flex: 1;
   }
 
@@ -537,6 +543,7 @@ h1 {
   .right img {
     position: absolute;
     bottom: 0;
+    width: 100%;
   }
 
   .footer-heading {
@@ -630,4 +637,8 @@ h1 {
       width: 90%;
     }
   }
+  .desktop {
+    display: block;
+  }
 }
+
