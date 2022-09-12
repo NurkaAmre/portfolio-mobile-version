@@ -694,6 +694,15 @@ h1 {
   color: #000;
   align-self: center;
   gap: 50px;
-  
 }
 
+.dom-bg {
+  position: absolute;
+  bottom: 90%;
+  left: 75%;
+}
+.dom-bg-1 {
+  top: 300px;
+  right: 80%;
+  position: absolute;
+}
