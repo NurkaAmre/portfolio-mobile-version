@@ -15,6 +15,7 @@ Then create html.file and css and try to work your page was looks like as figma 
 - CSS
 - JavaScript 
 - Linter
+- JavaScript
 
 ## Live Demo 
 [Live Demo Link](https://nurkaamre.github.io/portfolio-mobile-version/)
@@ -36,7 +37,10 @@ If you think you need this project then you must go master and make copy link, o
 
 - GitHub: [@Bludidi](https://github.com/Bludidi)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> fdd3c19b2f3bf9207fb21302002533b90f6b18d5
 ## Show your support
 
 Give a ⭐️ if you like this project!
