@@ -39,6 +39,8 @@ h1 {
 .header {
   background: url("./assets/icons/image_geometry_1.svg") no-repeat left top;
   height: 100px;
+  justify-content: flex-end;
+  padding-inline: 16px;
 }
 
 .hero-section {
@@ -49,22 +51,13 @@ h1 {
   padding-top: 60px;
 }
 
-.header,
 .container {
   padding-inline: 16px;
-}
-
-.header {
-  justify-content: flex-end;
 }
 
 .decoration {
   max-width: 100%;
   margin-top: 42px;
-}
-
-.container {
-  padding-inline: 16px;
 }
 
 .paragraph {
@@ -641,6 +634,7 @@ h1 {
       width: 90%;
     }
   }
+
   .desktop {
     display: block;
   }
@@ -662,13 +656,13 @@ h1 {
 }
 
 .exit {
- position: absolute;
- right: 7%;
- top: 20%;
- border: none;
- background-color: white;
- font-size: 20px;
- cursor: pointer;
+  position: absolute;
+  right: 7%;
+  top: 20%;
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .mob-style {
@@ -701,6 +695,7 @@ h1 {
   bottom: 90%;
   left: 75%;
 }
+
 .dom-bg-1 {
   top: 300px;
   right: 80%;

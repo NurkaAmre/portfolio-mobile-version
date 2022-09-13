@@ -3,15 +3,6 @@ const openMenu = document.querySelector('.mobile-option');
 const extBtn = document.querySelector('.exit');
 
 hamburger.addEventListener('click', show);
-window.addEventListener('resize', () => {
-  if (window.innerWidth < 768) {
-    close;
-  }else {
-    close;
-  }
-});
-
-openMenu.addEventListener('click', close);
 extBtn.addEventListener('click', close);
 
 function show () {
