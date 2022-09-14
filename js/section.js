@@ -193,7 +193,7 @@ for (i = 0; i < projects.length; i += 1) {
 };
 
 const open = document.querySelectorAll('.see-source');
-console.log(open);
+
 for (let j = 0; j < open.length; j += 1) {
     open[j].addEventListener('click', () => {
         const main = document.createElement('div');
