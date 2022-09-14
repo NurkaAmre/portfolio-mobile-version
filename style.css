@@ -131,9 +131,12 @@ h1 {
 }
 
 .feature {
+  padding-top: 2%;
   text-align: center;
   background: #98dede;
-  font-size: 12px;
+  font-size: 18px;
+  width: 30%;
+  height: 50px;
 }
 
 .c-projects {
@@ -194,6 +197,8 @@ h1 {
 
 .c-projects:hover {
   cursor: pointer;
+  background-color: whitesmoke;
+  color: #1a2236;
 }
 
 .container-footer {
@@ -642,3 +647,69 @@ h1 {
   }
 }
 
+/* Modal-Project */
+.ola {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: var(--ff-headings);
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.modal-container {
+  /* display: none; */
+  position: fixed;
+  background-color: #dfdfe0;
+}
+
+.modal-heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 80%;
+  font-family: var(--ff-normal);
+  color: #1a2236;
+}
+
+.for-x {
+  position: relative;
+}
+
+.menu-btn {
+  position: absolute;
+}
+
+.modal-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.feature-modal {
+  background-color: #dddfe6;
+  border:1px #1a2236;
+}
+
+.modal-img {
+  width: 100%;
+}
+
+.list-img {
+  display: flex;
+  flex-direction: row;
+  width: 69.78px;
+  height: 40.54px;
+}
+
+.modal-text {
+  font-family: var(--ff-normal);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1a2236;
+}
+
+.modal-links {
+  border: 1px solid #1a2236;
+  color: #1a2236;
+}
