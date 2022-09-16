@@ -18,3 +18,5 @@ function close() {
 
 hamburger.addEventListener('click', show);
 extBtn.addEventListener('click', close);
+
+openMenu.addEventListener('click', close);
