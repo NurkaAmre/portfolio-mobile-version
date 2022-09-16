@@ -166,104 +166,104 @@ const projects = [{
 
 const body = document.querySelector('#project');
 
-for (i = 0; i < projects.length; i += 1) {
-    const projectSection = document.createElement('section');
-    projectSection.className = 'section';
+projects.forEach(p => {
+  const projectSection = document.createElement('div');
+    projectSection.className = 'container';
     body.appendChild(projectSection);
     projectSection.innerHTML = ` 
-    <div class="container">
         <ul class="grid">
-          <li class="project-header"><h2 class="primary-heading about1 rotate-one"></h2></li>
           <li class="span-3 project-item">
             <img
               class="project-img"
-              src="${projects[i].image}"
+              src="${p.image}"
               alt="laptop"
             />
             <div class="container container-information bottom">
-              <h2 class="heading heading-desktop">${projects[i].title}</h2> 
+              <h2 class="heading heading-desktop">${p.title}</h2> 
               <ul class="features">
-                <li class="feature feature-desktop">${projects[i].features[0]}</li>
-                <li class="feature feature-desktop">${projects[i].features[1]}</li>
-                <li class="feature feature-desktop">${projects[i].features[2]}</li>
+                <li class="feature feature-desktop">${p.features[0]}</li>
+                <li class="feature feature-desktop">${p.features[1]}</li>
+                <li class="feature feature-desktop">${p.features[2]}</li>
               </ul>
-              <button class="c-projects" id=${projects[i].id} onclick="popUp(this.id)">
-                ${projects[i].btn}
-                <img src="${projects[i].img}" alt="arrow" />
+              <button class="c-projects" id=${p.id} onclick="popUp(this.id)">
+                ${p.btn}
+                <img src="${p.img}" alt="arrow" />
               </button>
             </div>
         </li>
     </div>
     `;
-};
-// projects[0].style.gridSpan= "2";
+}) 
+
 
 function popUp (item) {
     console.log(item)
     const overlay = document.querySelector('.extra');
     
     overlay.style.display = 'flex'
-for (let j = 0; j < projects.length; j += 1) {
-    if (item.toString() === projects[j].id.toString()) {
-        const popupModal = document.querySelector('.popup-modal')
-        console.log(popupModal)
-        popupModal.innerHTML = `
-    <div class="container bottom ">
-    <div class="for-x">
-    <h2 class="modal-heading">${projects[item].title}</h2>
-    <button type="button" class="menu-btn">
-              &#x2716
-            </button>
-    </div>
-    <ul class="modal-features">
-      <li class="feature-modal">${projects[item].features[0]}</li>
-      <li class="feature-modal">${projects[item].features[1]}</li>
-      <li class="feature-modal">${projects[item].features[2]}</li>
-    </ul>
-    <div class="next-pre">
-    <img class="modal-img" src="${projects[item].image}" alt="laptop-img" />
-    <img class="next" src="${projects[item].sideArrows[0]}" alt="previous"} />
-    <img class="pre" src="${projects[item].sideArrows[1]}" alt="next"} />
-    </div>
-    <ul class="list-img" role="list">
-              <li role="listitem" class="choose">
-                <img class="img1" src="${projects[item].sideImage[0]}" alt="project" />
-              </li>
-              <li role="listitem">
-                <img class="img1" src="${projects[item].sideImage[1]}" alt="project" />
-              </li>
-              <li role="listitem">
-                <img class="img1" src="${projects[item].sideImage[2]}" alt="project" />
-              </li>
-              <li role="listitem">
-                <img class="img1" src="${projects[item].sideImage[3]}" alt="project" />
-              </li>
-            </ul>
-    <div>
-       <div class="modal-text"><p>${projects[item].description}</p></div>
-    <div class="modal-links">
-       <button class="see-more">
-         ${projects[item].btnForPopup[0]}
-        <img class="arrow" src="${projects[item].icons[1]}" alt="arrow" />
-       </button>
-       <button class="see-more">
-         ${projects[item].btnForPopup[1]}
-        <img class="arrow" src="${projects[item].icons[0]}" alt="arrow" />
-        </button>
-    </div>
-    <div>
-        <button>
-         <span>${projects[item].side[0]}</span>
-        </button>
-              <button>
-                <span>${projects[item].side[1]}</span>
+
+projects.forEach(p => {
+  const popupModal = document.querySelector('.popup-modal')
+          console.log(popupModal)
+          if(item === p.id) {
+          popupModal.innerHTML = `
+      <div class="container bottom ">
+      <div class="for-x">
+      <h2 class="modal-heading m-h-d">${p.title}</h2>
+      <button type="button" class="menu-btn">
+                &#x2716
               </button>
-        </div>
-        </div>
-    </div>
-    `;
-    }
-}};
+      </div>
+      <ul class="modal-features">
+        <li class="feature-modal">${p.features[0]}</li>
+        <li class="feature-modal">${p.features[1]}</li>
+        <li class="feature-modal">${p.features[2]}</li>
+      </ul>
+      <div class="next-pre">
+      <img class="modal-img" src="${p.image}" alt="laptop-img" />
+      <img class="next" src="${p.sideArrows[0]}" alt="previous"} />
+      <img class="pre" src="${p.sideArrows[1]}" alt="next"} />
+      </div>
+      <ul class="list-img" role="list">
+                <li role="listitem" class="choose">
+                  <img class="img1" src="${p.sideImage[0]}" alt="project" />
+                </li>
+                <li role="listitem">
+                  <img class="img1 img2" src="${p.sideImage[1]}" alt="project" />
+                </li>
+                <li role="listitem">
+                  <img class="img1 img2" src="${p.sideImage[2]}" alt="project" />
+                </li>
+                <li role="listitem">
+                  <img class="img1 img2" src="${p.sideImage[3]}" alt="project" />
+                </li>
+              </ul>
+      <div class="bot-text">
+         <div class="modal-text"><p>${p.description}</p></div>
+      <div class="modal-links">
+         <button class="see-more">
+           ${p.btnForPopup[0]}
+          <img class="arrow" src="${p.icons[1]}" alt="arrow" />
+         </button>
+         <button class="see-more">
+           ${p.btnForPopup[1]}
+          <img class="arrow" src="${p.icons[0]}" alt="arrow" />
+          </button>
+      </div>
+      <div class="next-m previous-d">
+          <button>
+           <span>${p.side[0]}</span>
+          </button>
+                <button>
+                  <span>${p.side[1]}</span>
+                </button>
+          </div>
+          </div>
+      </div>
+      `;
+  }
+}) 
+};
 
 // const projectItem = document.querySelectorAll('.project-item');
 // console.log(projectItem[0]);

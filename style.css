@@ -60,10 +60,6 @@ h1 {
   margin-top: 42px;
 }
 
-.container {
-  padding-inline: 16px;
-}
-
 .paragraph {
   margin-top: 20px;
   margin-bottom: 40px;
@@ -318,6 +314,18 @@ h1 {
   display: none;
 }
 
+.for-desktop {
+  display: none;
+}
+
+.head-p {
+  font-weight: 400;
+    font-size: 90px;
+    font-family: var(--ff-headings);
+    padding-top: 90px;
+    margin-bottom: 80px;
+}
+
 @media screen and (min-width: 768px) {
   body {
     background-image: none;
@@ -332,6 +340,10 @@ h1 {
     border-bottom: 1px solid #dddfe6;
     padding-top: 38px;
     padding-bottom: 38px;
+  }
+
+  .desktop {
+    display: block;
   }
 
   .nav-list {
@@ -355,10 +367,6 @@ h1 {
   }
 
   .hamburger {
-    display: none;
-  }
-
-  .decoration {
     display: none;
   }
 
@@ -411,21 +419,46 @@ h1 {
     background: url(./assets/desktop/image_dots.png) no-repeat top right;
   }
 
-  .rotate-one {
+  .rotate {
     transform-origin: right top;
     transform: rotate(-90deg);
     position: absolute;
     right: 90%;
+    font-weight: 400;
+    font-size: 90px;
+    font-family: var(--ff-headings);
+    padding-top: 20px;
+    padding-inline-start: 90px;
+  }
+
+  .for-desktop {
+    display: block;
+  }
+  
+  .dot {
+    position: absolute;
+    left: 25%;
+    top: 5%;
+    width: 10%;
+  }
+  
+  .dot2 {
+    position: absolute;
+    width: 30%;
+    top: 62%;
+    left: 35%;
+  }
+
+  .redshape {
+    position: absolute;
+    width: 40%;
+    top: 700px;
+    left: 60%;
   }
 
   .section {
     padding-top: 0;
     margin-bottom: 110px;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 0.5fr 1fr;
   }
 
   .heading-desktop {
@@ -449,47 +482,67 @@ h1 {
   .container-information {
     position: absolute;
     width: 100%;
-  }
-
-  .project-img {
-    width: 100%;
-  }
-
-  .pose-a {
-    position: absolute;
-  }
-
-  .top {
-    top: 20%;
-  }
-
-  .bottom {
-    bottom: 0;
-  }
-
-  .top-20 {
-    top: -30%;
-  }
-
-  .bg-square {
-    background: url(./assets/desktop/Group83.png) no-repeat right 60%;
-    background-size: 85%;
-  }
-
-  .w-70 {
-    width: 70%;
-  }
-
-  .span-2 {
-    grid-column: span 2;
-  }
-
-  .span-3 {
-    grid-column: span 3;
-  }
-
-  .hide {
+    top: 50%;
+    border: 3px solid blue;
     display: none;
+  }
+
+  .project-item:hover .container-information {
+    display: block;
+  }
+  
+
+  #project {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    gap: 20px;
+    position: relative;
+  }
+
+  #project :nth-child(5) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  #project :nth-child(6) {
+    width: 80%;
+  }
+
+  #project :nth-child(7) {
+    grid-column: span 2;
+    position: absolute;
+    top: 680px;
+    border: 5px solid yellow;
+    width: 55%;
+    display: inline-block;
+    
+  }
+
+  #project :nth-child(8) {
+    position: absolute;
+    top: 920px;
+    left: 60%;
+    width: 20%;
+    border: 3px solid orange;
+    
+  }
+
+  #project :nth-child(9) {
+    position: absolute;
+    width: 30%;
+    top: 75%;
+    left: 70%;
+    border: 4px solid purple;
+
+  }
+
+  #project :nth-child(10) {
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    z-index: -1;
   }
 
   /* About-section */
@@ -498,9 +551,10 @@ h1 {
     flex-direction: row-reverse;
     padding-inline-start: 110px;
     padding-inline-end: 80px;
-    margin-top: 110px;
+    margin-top: 550px;
     margin-bottom: 100px;
     column-gap: 80px;
+    border: 3px solid tomato;
   }
 
   .about1 {
@@ -528,6 +582,77 @@ h1 {
     background-position: 5px 200px, 175px 0;
     background-repeat: no-repeat;
     background-size: 60%, 40%;
+  }
+
+  .extra {
+    width: 70%;
+    height: 70%;
+    background-color: #1a2236;
+    position: fixed;
+    backdrop-filter: blur(20px);
+    z-index: 10;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid teal;
+  }
+
+  .bot-text {
+    padding-inline-start: 20%;
+    padding-inline-end: 20%;
+  }
+
+  
+.popup-modal {
+  width: 60%;
+  height: 60%;
+  overflow-y: scroll;
+  background-color: #fff;
+  border: 10px solid orchid;
+}
+
+.next-pre {
+  position: relative;
+}
+
+.next {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: 5px;
+  bottom: 150px;
+}
+
+.pre {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 5px;
+  bottom: 90px;
+}
+   
+.img1 {
+  width: 100%;
+  height: 100%;
+  border: 5px solid royalblue;
+}
+  .mobile {
+    display: none;
+  }
+
+  .previous-d {
+    display: block;
+  }
+
+  .popup-modal {
+    background-color: #1a2236;
+  }
+
+  .modal-heading {
+   font-size: 100px;
+   font-weight: 700;
+   line-height: 48px;
+   text-align: left;
   }
 
   /* Footer  */
@@ -642,12 +767,9 @@ h1 {
       width: 90%;
     }
   }
-  .desktop {
-    display: block;
-  }
 }
 
-@media screen and (min-width: 768px){
+/* @media screen and (min-width: 768px){
   .ola {
     font-size: 50px;
     font-weight: 400;
@@ -660,7 +782,7 @@ h1 {
     position: absolute;
     right: 90%;
   }
-}
+} */
 
 /* Modal-Project */
 .ola {
@@ -698,7 +820,7 @@ h1 {
   line-height: 80%;
   font-family: var(--ff-normal);
   color: #1a2236;
-  padding-top: 20%;
+  padding-top: 10%;
   margin-bottom: 10%;
 }
 
@@ -793,4 +915,8 @@ h1 {
 .arrow {
   color: #1a2236;
   padding-left: 30%;
+}
+
+.next-m {
+  display: none;
 }
