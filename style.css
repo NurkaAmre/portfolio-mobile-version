@@ -15,7 +15,6 @@ li {
 }
 
 body {
-  background: url("./assets/icons/image_geometry_1.svg") no-repeat left top;
   font-family: var(--ff-normal);
   color: #1a2236;
 }
@@ -37,8 +36,14 @@ h1 {
   display: flex;
 }
 
+.header {
+  background: url("./assets/icons/image_geometry_1.svg") no-repeat left top;
+  height: 100px;
+  justify-content: flex-end;
+  padding-inline: 16px;
+}
+
 .hero-section {
-  padding-top: 100px;
   flex-direction: column;
 }
 
@@ -46,22 +51,13 @@ h1 {
   padding-top: 60px;
 }
 
-.header,
 .container {
   padding-inline: 16px;
-}
-
-.header {
-  justify-content: flex-end;
 }
 
 .decoration {
   max-width: 100%;
   margin-top: 42px;
-}
-
-.container {
-  padding-inline: 16px;
 }
 
 .paragraph {
@@ -240,14 +236,14 @@ h1 {
   border-radius: 4px;
   height: 52px;
   color: #1a2236;
-  padding-left: 1em;
-  padding-top: 0.5em;
+  padding-left: 0;
+  padding-top: 0;
 }
 
 .label1 {
-  padding: 4px 0 0 16px;
+  padding: 0;
   color: #dfdfe0;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .textarea1 {
@@ -323,6 +319,7 @@ h1 {
 
   /* Hero-section */
   .header {
+    background: none;
     justify-content: center;
     border-bottom: 1px solid #dddfe6;
     padding-top: 38px;
@@ -637,8 +634,70 @@ h1 {
       width: 90%;
     }
   }
+
   .desktop {
     display: block;
   }
 }
 
+/* DOM */
+.mobile-option {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./assets/dom/header.png") no-repeat bottom white;
+  background-size: contain;
+}
+
+.head-dom {
+  position: relative;
+}
+
+.exit {
+  position: absolute;
+  right: 7%;
+  top: 20%;
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.mob-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  row-gap: 20px;
+  padding-top: 10%;
+  margin-bottom: 15%;
+}
+
+/* .mobile-app {
+  display: none;
+} */
+
+.nav-link {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: var(--ff-normal);
+  text-decoration: none;
+  color: #000;
+  align-self: center;
+  gap: 50px;
+}
+
+.dom-bg {
+  position: absolute;
+  bottom: 90%;
+  left: 75%;
+}
+
+.dom-bg-1 {
+  top: 300px;
+  right: 80%;
+  position: absolute;
+}

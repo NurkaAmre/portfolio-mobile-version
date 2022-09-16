@@ -14,22 +14,23 @@
     />
   </head>
   <body class="bg-img">
-    <header class="header">
+    <header class="header mobile-app" id="hello">
       <nav>
         <ul  class="nav-list">
-          <li><a class="nav-link" href="#">Hello</a></li>
-          <li><a class="nav-link" href="#">Portfolio</a></li>
-          <li><a class="nav-link" href="#">About</a></li>
-          <li><a class="nav-link" href="#">Contact</a></li>
+          <li><a class="nav-link" href="#hello">Hello</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
+        <div>
         <button class="hamburger">
-          <img src="./assets/icons/ic_menu.svg" alt="menu-icon" />
+          <img class="mobile-app" src="./assets/icons/ic_menu.svg" alt="menu-icon" />
         </button>
       </nav>
     </header>
-    <main>
+    <main class="mobile-app">
       <section class="hero-section hero-section1">
-        <div class="container bg-image">
+        <div class="container bg-image mobile-app">
           <h1 class="primary-heading">Nurgul Kereikhan</h1>
           <p class="paragraph">
             Hello! I am a software developer! I can help you build a product,
@@ -37,16 +38,33 @@
             see and have a project you need coded, don’t hesitate and contact
             me.
           </p>
-          <button class="cta-btn">Start collaboration</button>
+          <button class="cta-btn mobile-app">Start collaboration</button>
         </div>
+        <div class="mobile-option">
+          <div class="head-dom">
+            <img src="./assets/dom/Group98.png" alt="">
+            <button class="exit">
+              &#x2716;
+            </button>
+          </div>
+        <ul class="mob-style">
+          <li class="dom-bg"><img src="./assets/dom/dots.png" alt=""></li>
+          <li><a class="nav-link" href="#hello">Hello</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="dom-bg-1"><img src="./assets/dom/dots.png" alt=""></li>
+      </ul>
+      <!-- <img class="decoration" src="./assets/dom/header.png" alt=""> -->
+      </div>
         <img class="decoration-desktop desktop" src="./assets/desktop/image-geometry_1.png" alt="">
         <img
-          class="decoration"
+          class="decoration mobile-app"
           src="./assets/icons/image_geometry_2.svg"
           alt=""
         />
       </section>
-      <section class="section">
+      <section class="section" id="portfolio">
         <div class="container">
         <ul class="grid">
           <li class="project-header"><h2 class="primary-heading about1 rotate-one">Projects</h2></li>
@@ -178,10 +196,10 @@
       </div>
       </section>
       
-      <section class="section">
+      <section class="section" id="about">
         <div class="container container-item cont-3">
           <div class="about-content">
-            <h2 class="primary-heading">About</h2>
+            <h2 class="primary-heading" >About</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -229,7 +247,7 @@
         </div>
       </section>
 
-      <footer>
+      <footer id="contact">
         <div class="container-footer bg-footer">
           <div class="left desktop"><img src="./assets/desktop/image-geometry_6.png" alt=""></div>
            <div class="top-footer">
@@ -239,11 +257,11 @@
                 <ul class="last-form">
                     <li class="input-item last-grid1">
                       <label class="label1">Your name</label>
-                      <input class="input2" type="text" id="name" name="user-name" required maxlength="30">
+                      <input class="input2" type="text" id="name" name="user-name" placeholder="Your Name" required maxlength="30">
                     </li>
                     <li class="input-item last-grid0">
                       <label class="label1">Your email</label>
-                      <input class="input2" type="email" id="mail" name="user-email" required>
+                      <input class="input2" type="email" id="mail" name="user-email" placeholder="Your email" required>
                   </li>
                   
                   <li class="input-item last-grid2">
@@ -284,5 +302,6 @@
         </div>
       </footer>
     </main>
+    <script src="./js/main.js"></script>
   </body>
 </html>
