@@ -418,7 +418,7 @@ h1 {
     right: 90%;
   }
 
-  /* .section {
+  .section {
     padding-top: 0;
     margin-bottom: 110px;
   }
@@ -490,7 +490,7 @@ h1 {
 
   .hide {
     display: none;
-  } */
+  }
 
   /* About-section */
   .container-item {
@@ -660,16 +660,6 @@ h1 {
     position: absolute;
     right: 90%;
   }
-
-  .modal-b {
-      display: grid;
-      grid-template-columns: 1fr 1fr 0.5fr 1fr;
-  }
-
-  #projectSection:nth-child(1) {
-   border: 5px solid red;
-   grid-column: 2/1;
-  } 
 }
 
 /* Modal-Project */
@@ -804,5 +794,3 @@ h1 {
   color: #1a2236;
   padding-left: 30%;
 }
-
-

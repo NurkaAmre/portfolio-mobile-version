@@ -5,7 +5,6 @@ const projects = [{
         image: './assets/images/Rectangle21.svg',
         img: './assets/images/Union.svg',
         sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
-        span: '3',
         sideImage: [
             './assets/images/Rectangle21.svg',
             './assets/images/Rectangle21.svg',
@@ -168,13 +167,10 @@ const body = document.querySelector('#project');
 
 for (i = 0; i < projects.length; i += 1) {
     const projectSection = document.createElement('section');
-    projectSection.className = 'section';
     body.appendChild(projectSection);
     projectSection.innerHTML = ` 
-    <div class="container">
-        <ul class="grid">
-          <li class="project-header"><h2 class="primary-heading about1 rotate-one"></h2></li>
-          <li class="span-3 project-item">
+    <div class="container container-information bottom modal-b">
+    <li class="span-3" project-item desktop-grid">
             <img
               class="project-img"
               src="${projects[i].image}"
@@ -187,7 +183,7 @@ for (i = 0; i < projects.length; i += 1) {
                 <li class="feature feature-desktop">${projects[i].features[1]}</li>
                 <li class="feature feature-desktop">${projects[i].features[2]}</li>
               </ul>
-              <button class="c-projects" id=${projects[i].id} onclick="popUp(this.id)">
+              <button class="c-projects see-source" id=${projects[i].id} onclick="popUp(this.id)">
                 ${projects[i].btn}
                 <img src="${projects[i].img}" alt="arrow" />
               </button>
@@ -196,7 +192,6 @@ for (i = 0; i < projects.length; i += 1) {
     </div>
     `;
 };
-// projects[0].style.gridSpan= "2";
 
 function popUp (item) {
     console.log(item)
@@ -264,6 +259,3 @@ for (let j = 0; j < projects.length; j += 1) {
     `;
     }
 }};
-
-// const projectItem = document.querySelectorAll('.project-item');
-// console.log(projectItem[0]);
