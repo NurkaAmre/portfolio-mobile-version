@@ -1031,3 +1031,19 @@ h1 {
 .modal__footer .btn:focus {
   color: #1a2236;
 }
+
+.msg {
+  font-size: 16px;
+  font-weight: 300;
+  display: block;
+  margin-bottom: 15px;
+  padding-inline: 5px;
+}
+
+.msg.success {
+  color: green;
+}
+
+.msg.fail {
+  color: red;
+}
