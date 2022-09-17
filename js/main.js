@@ -323,7 +323,7 @@ window.addEventListener('click', (e) => {
 // ===============================================
 
 const form = document.forms[0];
-const email = document.querySelector('.email-input')
+const email = document.querySelector('.email-input');
 const msg = form.querySelector('.msg');
 
 function validator(e) {
