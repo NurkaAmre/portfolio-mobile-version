@@ -452,7 +452,7 @@ h1 {
   .redshape {
     position: absolute;
     width: 40%;
-    top: 700px;
+    top: 780px;
     left: 60%;
   }
 
@@ -522,9 +522,9 @@ h1 {
 
   #project :nth-child(8) {
     position: absolute;
-    top: 920px;
+    top: 990px;
     left: 60%;
-    width: 20%;
+    width: 25%;
     border: 3px solid orange;
     
   }
@@ -532,8 +532,8 @@ h1 {
   #project :nth-child(9) {
     position: absolute;
     width: 30%;
-    top: 75%;
-    left: 70%;
+    top: 85%;
+    left: 71.5%;
     border: 4px solid purple;
 
   }
@@ -640,10 +640,6 @@ h1 {
     display: none;
   }
 
-  .previous-d {
-    display: block;
-  }
-
   .popup-modal {
     background-color: #1a2236;
   }
@@ -654,6 +650,40 @@ h1 {
    line-height: 48px;
    text-align: left;
   }
+
+  /* .previous-d {
+    display: block;
+  } */
+  .next-m {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: var(--ff-normal);
+    font-size: 18px;
+    color: #1a2236;
+    margin-bottom: 100px;
+  }
+
+  .n-arrow {
+    position: absolute;
+    left: 5%;
+  }
+  
+  .p-arrow {
+    position: absolute;
+    right: 8%;
+  }
+  
+  .arrow-n {
+    position: absolute;
+  }
+  
+  .arrow-p {
+    position: absolute;
+    left: 95%;
+    top: 2px;
+  }
+  
 
   /* Footer  */
   .container-footer {
@@ -917,6 +947,4 @@ h1 {
   padding-left: 30%;
 }
 
-.next-m {
-  display: none;
-}
+

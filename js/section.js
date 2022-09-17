@@ -25,7 +25,8 @@ const projects = [{
         btn: 'See Source',
         side: ['Next Project', 'Previous Project'],
         icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
-        btnForPopup: ['See Live','See Source']
+        btnForPopup: ['See Live','See Source'],
+        nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png']
     }, {
         id: '2',
         title: 'Project name goes here',
@@ -52,7 +53,8 @@ const projects = [{
         btn: 'See Source',
         side: ['Next Project', 'Previous Project'],
         icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
-        btnForPopup: ['See Live','See Source']
+        btnForPopup: ['See Live','See Source'],
+        nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png']
     }, {
         id: '3',
         title: 'Project name goes here',
@@ -79,7 +81,8 @@ const projects = [{
         btn: 'See Source',
         side: ['Next Project', 'Previous Project'],
         icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
-        btnForPopup: ['See Live','See Source']
+        btnForPopup: ['See Live','See Source'],
+        nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png']
     }, {
         id: '4',
         title: 'Project name goes here',
@@ -106,7 +109,8 @@ const projects = [{
         btn: 'See Source',
         side: ['Next Project', 'Previous Project'],
         icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
-        btnForPopup: ['See Live','See Source']
+        btnForPopup: ['See Live','See Source'],
+        nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png']
     }, {
         id: '5',
         title: 'Project name goes here',
@@ -133,7 +137,8 @@ const projects = [{
         btn: 'See Source',
         side: ['Next Project', 'Previous Project'],
         icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
-        btnForPopup: ['See Live','See Source']
+        btnForPopup: ['See Live','See Source'],
+        nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png']
     },  {
         id: '6',
         title: 'Project name goes here',
@@ -160,7 +165,8 @@ const projects = [{
         btn: 'See Source',
         side: ['Next Project', 'Previous Project'],
         icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
-        btnForPopup: ['See Live','See Source']
+        btnForPopup: ['See Live','See Source'],
+        nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png']
     },
     ];
 
@@ -251,14 +257,12 @@ projects.forEach(p => {
           </button>
       </div>
       <div class="next-m previous-d">
-          <button>
-           <span>${p.side[0]}</span>
-          </button>
-                <button>
-                  <span>${p.side[1]}</span>
-                </button>
-          </div>
-          </div>
+      <img class="arrow-n" src="${p.nextPrevious[0]}" alt="">
+          <a class="n-arrow" href="#">${p.side[0]}</a>
+          <a class="p-arrow" href="#">${p.side[1]}</a>
+        <img class="arrow-p" src="${p.nextPrevious[1]}" alt="">
+      </div>
+      </div>
       </div>
       `;
   }
