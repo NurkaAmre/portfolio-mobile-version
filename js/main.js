@@ -32,10 +32,10 @@ const projects = [{
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
   span: '3',
   sideImage: [
-      './assets/images/Rectangle21.svg',
-      './assets/images/Rectangle21.svg',
-      './assets/images/Rectangle21.svg',
-      './assets/images/Rectangle21.svg',
+    './assets/images/Rectangle21.svg',
+    './assets/images/Rectangle21.svg',
+    './assets/images/Rectangle21.svg',
+    './assets/images/Rectangle21.svg',
   ],
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -50,8 +50,8 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   btn: 'See Source',
   side: ['Next Project', 'Previous Project'],
   icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
-  btnForPopup: ['See Live','See Source'],
-  nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png']
+  btnForPopup: ['See Live', 'See Source'],
+  nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png'],
 }, {
   id: '2',
   class: 'item3',
@@ -61,10 +61,10 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   img: './assets/images/Union.svg',
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
   sideImage: [
-      './assets/images/Rectangle22.svg',
-      './assets/images/Rectangle22.svg',
-      './assets/images/Rectangle22.svg',
-      './assets/images/Rectangle22.svg',
+    './assets/images/Rectangle22.svg',
+    './assets/images/Rectangle22.svg',
+    './assets/images/Rectangle22.svg',
+    './assets/images/Rectangle22.svg',
   ],
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -79,8 +79,8 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   btn: 'See Source',
   side: ['Next Project', 'Previous Project'],
   icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
-  btnForPopup: ['See Live','See Source'],
-  nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png']
+  btnForPopup: ['See Live', 'See Source'],
+  nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png'],
 }, {
   id: '3',
   class: 'item5',
@@ -90,10 +90,10 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   img: './assets/images/Union.svg',
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
   sideImage: [
-      './assets/images/Rectangle23.svg',
-      './assets/images/Rectangle23.svg',
-      './assets/images/Rectangle23.svg',
-      './assets/images/Rectangle23.svg',
+    './assets/images/Rectangle23.svg',
+    './assets/images/Rectangle23.svg',
+    './assets/images/Rectangle23.svg',
+    './assets/images/Rectangle23.svg',
   ],
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -108,8 +108,8 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   btn: 'See Source',
   side: ['Next Project', 'Previous Project'],
   icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
-  btnForPopup: ['See Live','See Source'],
-  nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png']
+  btnForPopup: ['See Live', 'See Source'],
+  nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png'],
 }, {
   id: '4',
   class: 'item6',
@@ -119,10 +119,10 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   img: './assets/images/Union.svg',
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
   sideImage: [
-      './assets/images/Rectangle24.svg',
-      './assets/images/Rectangle24.svg',
-      './assets/images/Rectangle24.svg',
-      './assets/images/Rectangle24.svg',
+    './assets/images/Rectangle24.svg',
+    './assets/images/Rectangle24.svg',
+    './assets/images/Rectangle24.svg',
+    './assets/images/Rectangle24.svg',
   ],
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -137,8 +137,8 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   btn: 'See Source',
   side: ['Next Project', 'Previous Project'],
   icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
-  btnForPopup: ['See Live','See Source'],
-  nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png']
+  btnForPopup: ['See Live', 'See Source'],
+  nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png'],
 }, {
   id: '5',
   class: 'item8',
@@ -148,10 +148,10 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   img: './assets/images/Union.svg',
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
   sideImage: [
-      './assets/images/Rectangle25.svg',
-      './assets/images/Rectangle25.svg',
-      './assets/images/Rectangle25.svg',
-      './assets/images/Rectangle25.svg',
+    './assets/images/Rectangle25.svg',
+    './assets/images/Rectangle25.svg',
+    './assets/images/Rectangle25.svg',
+    './assets/images/Rectangle25.svg',
   ],
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -166,9 +166,9 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   btn: 'See Source',
   side: ['Next Project', 'Previous Project'],
   icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
-  btnForPopup: ['See Live','See Source'],
-  nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png']
-},  {
+  btnForPopup: ['See Live', 'See Source'],
+  nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png'],
+}, {
   id: '6',
   class: 'item10',
   title: 'Project name goes here',
@@ -177,10 +177,10 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   img: './assets/images/Union.svg',
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
   sideImage: [
-      './assets/images/Rectangle26.svg',
-      './assets/images/Rectangle26.svg',
-      './assets/images/Rectangle26.svg',
-      './assets/images/Rectangle26.svg',
+    './assets/images/Rectangle26.svg',
+    './assets/images/Rectangle26.svg',
+    './assets/images/Rectangle26.svg',
+    './assets/images/Rectangle26.svg',
   ],
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -195,16 +195,16 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   btn: 'See Source',
   side: ['Next Project', 'Previous Project'],
   icons: ['./assets/icons/Vector.png', './assets/icons/Union.png'],
-  btnForPopup: ['See Live','See Source'],
-  nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png']
+  btnForPopup: ['See Live', 'See Source'],
+  nextPrevious: ['./assets/icons/pre.png', './assets/icons/next.png'],
 },
 ];
 
 const projectList = document.querySelector('#portfolio ul.grid');
 
 function loadProjects() {
-for (let i = 0; i < projects.length; i++) {
-  const projectItemtemplate = `
+  for (let i = 0; i < projects.length; i += 1) {
+    const projectItemtemplate = `
     <li class="project-item ${projects[i].class}">
       <img
         class="project-img"
@@ -225,8 +225,8 @@ for (let i = 0; i < projects.length; i++) {
     </li>
   `;
 
-  projectList.innerHTML += projectItemtemplate;
-}
+    projectList.innerHTML += projectItemtemplate;
+  }
 }
 
 window.addEventListener('load', loadProjects());
@@ -279,11 +279,11 @@ function createModal(id) {
             <div class="modal__body_buttons flex direction">
               <button class="btn secondary-btn flex" type="button">
                 <span>See Live</span>
-                <img src="./assets/project-ic_link.svg" alt="see this project" />
+                <img src="./assets/icons/arw.png" alt="see this project" />
               </button>
               <button class="btn secondary-btn flex" type="button">
                 <span>See Source</span>
-                <img src="./assets/github-dark.svg" alt="see this project" />
+                <img src="./assets/icons/gitb.png" alt="see this project" />
               </button>
             </div>
             <div class="modal__footer flex space-between">

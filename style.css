@@ -130,6 +130,7 @@ h1 {
   text-align: center;
   background: #98dede;
   font-size: 12px;
+  padding: 0.375em 0.625em;
 }
 
 .c-projects {
@@ -396,11 +397,6 @@ h1 {
   padding: 1em 0 1.25em 0;
 }
 
-.feature {
-  background: #92dcdc;
-  padding: 0.375em 0.625em;
-}
-
 .modal__header_bottom .feature {
   background: none;
   border: 1px solid #1a2236;
@@ -494,6 +490,7 @@ h1 {
 .secondary-btn {
   background: #fff;
   color: #1a2236;
+  border: none;
   padding: 5px;
 }
 
@@ -711,6 +708,11 @@ h1 {
     top: -35%;
   }
 
+  .container-information {
+    position: absolute;
+    width: 100%;
+  }
+
   .item8 .container-information {
     position: relative;
     top: -15%;
@@ -753,11 +755,6 @@ h1 {
 
   .project-item {
     position: relative;
-  }
-
-  .container-information {
-    position: absolute;
-    width: 100%;
   }
 
   .project-img {
@@ -1017,4 +1014,20 @@ h1 {
   top: 300px;
   right: 80%;
   position: absolute;
+}
+
+.modal__body_buttons .btn:hover,
+.modal__body_buttons .btn:focus {
+  background: #1a2236;
+  color: #fff;
+}
+
+.modal__body_buttons .btn:hover img,
+.modal__body_buttons .btn:focus img {
+  filter: invert(100%);
+}
+
+.modal__footer .btn:hover,
+.modal__footer .btn:focus {
+  color: #1a2236;
 }
