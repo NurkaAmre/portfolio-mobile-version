@@ -1,21 +1,15 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio Mobile version
-This project about to setup mobile-version portfolio.
-For this project we need to create new-branch.
-First we must install linters
-Once you finish linters you must go Figma and download pictures, icons etc...
-Then create html.file and css and try to work your page was looks like as figma suggest.
+# My Portfolio Mobile & desktop version
 
+This is about my personal porfolio.
 
 ## Built With
 
 - HTML
 - CSS
 - JavaScript 
-- Linter
-- JavaScript
 
 ## Live Demo 
 [Live Demo Link](https://nurkaamre.github.io/portfolio-mobile-version/)
