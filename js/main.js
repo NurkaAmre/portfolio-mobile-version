@@ -25,7 +25,7 @@ openMenu.addEventListener('click', close);
 const projects = [{
   id: '1',
   class: 'item2',
-  title: 'Project name goes here',
+  title: 'Capstone project Quran classes',
   features: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
   image: './assets/images/Rectangle21.svg',
   img: './assets/images/Union.svg',
