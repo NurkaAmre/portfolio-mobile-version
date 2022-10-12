@@ -27,15 +27,15 @@ const projects = [{
   class: 'item2',
   title: 'Capstone project Quran classes',
   features: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-  image: './assets/images/Rectangle21.svg',
+  image: './assets/images/Screenshot1.png',
   img: './assets/images/Union.svg',
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
   span: '3',
   sideImage: [
-    './assets/images/Rectangle21.svg',
-    './assets/images/Rectangle21.svg',
-    './assets/images/Rectangle21.svg',
-    './assets/images/Rectangle21.svg',
+    './assets/images/Screenshot1.png',
+    './assets/images/Screenshot2.png',
+    './assets/images/Screenshot3.png',
+    './assets/images/Screenshot4.png',
   ],
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -57,14 +57,14 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   class: 'item3',
   title: 'Project name goes here',
   features: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-  image: './assets/images/Rectangle22.svg',
+  image: './assets/images/Screenshot1.png',
   img: './assets/images/Union.svg',
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
   sideImage: [
-    './assets/images/Rectangle22.svg',
-    './assets/images/Rectangle22.svg',
-    './assets/images/Rectangle22.svg',
-    './assets/images/Rectangle22.svg',
+    './assets/images/Screenshot1.png',
+    './assets/images/Screenshot2.png',
+    './assets/images/Screenshot3.png',
+    './assets/images/Screenshot5.png',
   ],
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -90,10 +90,10 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   img: './assets/images/Union.svg',
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
   sideImage: [
-    './assets/images/Rectangle23.svg',
-    './assets/images/Rectangle23.svg',
-    './assets/images/Rectangle23.svg',
-    './assets/images/Rectangle23.svg',
+    './assets/images/Screenshot1.png',
+    './assets/images/Screenshot2.png',
+    './assets/images/Screenshot3.png',
+    './assets/images/Screenshot5.png',
   ],
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -119,10 +119,10 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   img: './assets/images/Union.svg',
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
   sideImage: [
-    './assets/images/Rectangle24.svg',
-    './assets/images/Rectangle24.svg',
-    './assets/images/Rectangle24.svg',
-    './assets/images/Rectangle24.svg',
+    './assets/images/Screenshot1.png',
+    './assets/images/Screenshot2.png',
+    './assets/images/Screenshot3.png',
+    './assets/images/Screenshot5.png',
   ],
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -148,10 +148,10 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   img: './assets/images/Union.svg',
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
   sideImage: [
-    './assets/images/Rectangle25.svg',
-    './assets/images/Rectangle25.svg',
-    './assets/images/Rectangle25.svg',
-    './assets/images/Rectangle25.svg',
+    './assets/images/Screenshot1.png',
+    './assets/images/Screenshot2.png',
+    './assets/images/Screenshot3.png',
+    './assets/images/Screenshot5.png',
   ],
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -177,10 +177,10 @@ veniam, quis nostrud exercitation ullamco laboris nisi.`,
   img: './assets/images/Union.svg',
   sideArrows: ['./assets/icons/left.png', './assets/icons/right.png'],
   sideImage: [
-    './assets/images/Rectangle26.svg',
-    './assets/images/Rectangle26.svg',
-    './assets/images/Rectangle26.svg',
-    './assets/images/Rectangle26.svg',
+    './assets/images/Screenshot1.png',
+    './assets/images/Screenshot2.png',
+    './assets/images/Screenshot3.png',
+    './assets/images/Screenshot5.png',
   ],
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -278,11 +278,11 @@ function createModal(id) {
             </div>
             <div class="modal__body_buttons flex direction">
               <button class="btn secondary-btn flex" type="button">
-                <span>See Live</span>
+                <a class="go-live" href="https://nurkaamre.github.io/Conference-page/"><span>See Live</span></a>
                 <img src="./assets/icons/arw.png" alt="see this project" />
               </button>
               <button class="btn secondary-btn flex" type="button">
-                <span>See Source</span>
+              <a class="go-live" href="https://github.com/NurkaAmre/Conference-page"><span>See Source</span></a>
                 <img src="./assets/icons/gitb.png" alt="see this project" />
               </button>
             </div>

@@ -1031,3 +1031,9 @@ h1 {
 .modal__footer .btn:focus {
   color: #1a2236;
 }
+
+.go-live {
+  text-decoration: none;
+  color: #000;
+  padding-left: 10px;
+}
